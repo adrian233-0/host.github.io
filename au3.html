@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario de Cocinero</title>
+    <link rel="stylesheet" type="text/css" href="aucss.css">
+</head>
+<body>
+    <header>
+        <h1>La Dolce Vita</h1>
+    </header>
+
+    <nav>
+        <a href="index6.html">Pagina Principal</a><br>
+        <a href="au3.html">Formulario</a><br>
+        <a href="misrecetasLDV.html">Mis recetas</a><br>
+        <a href="desarrolladores.html">Desarrolladores</a>
+    </nav>
+
+    <main>
+        <br><br><br>
+        <section class="fondo">
+            <div  class="cuerpo"> 
+                <h1 align="center">Formulario de Cocinero</h1><br>
+                    <p align="center">Escribe tus datos de usuario</p><br>
+                    <p>
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" maxlength="16" required>
+                    </p>
+                    <p>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" maxlength="16" required>
+                    </p>
+                    <p>
+                        <label for="nombrec">Nombre:</label>
+                        <input type="text" id="nombrec" name="nombrec" maxlength="32" required>
+                    </p>
+                    <p>
+                        <label for="numero">Número:</label>
+                        <input type="number" id="numero" name="numero" required>
+                    </p>
+                    <p>
+                        <label for="salario">Salario Mínimo:</label>
+                        <input type="number" id="salario" name="salario" required>
+                    </p>
+                    <p>
+                        <label for="horarios">horario:</label>
+                        <input type="text" name="horarios" maxlength="128">
+                    </p>
+                    <p>
+                        <label for="direcion">direcion:</label>
+                        <input type="text" id="direcion" name="direcion" maxlength="32" required>
+                    </p>
+                    <p>
+                        <label for="horas">horarios</label>
+                        <select name="horario" size="1">
+                            <option value="hillo">9:00 a 3:00</option>
+                            <option value="hillo">3:00 a 11:00</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Tipo de experiencia laborar:</label><br>
+                        <input type="radio" name="tipo" value="particular" checked>Particular<br>
+                        <input type="radio" name="tipo" value="profesional">Profesional<br>
+                    </p>
+                    <p>
+                        <label for="comentarios">antecedentes:</label><br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="Si tienes comentarios, coméntalos aquí"></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="terminos" name="terminos" required>
+                        <label for="terminos">Acepto los términos y condiciones</label>
+                    </p>
+                    <p>
+                        <input type="submit" name="enviar" value="Enviar">
+                        <input type="reset" name="limpiarform" value="Borrar Datos">
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+        <br><br><br>
+    <footer>
+        <p>Recetas 23/09/2024 - Todos los derechos reservados</p>
+        <p>Kasy Morales</p>
+        <p>Au Andrade Adrian Guadalupe</p>
+        <p>5-A Programacion</p>
+        <p>CENTRO BACHILLERATO TECNOLOGICO Y DE SERVICIOS No. 206</p>
+    </footer>
+</body>
+</html>

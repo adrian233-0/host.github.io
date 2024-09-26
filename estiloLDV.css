@@ -1,0 +1,178 @@
+body{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	background-image: url('fondoPizza.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header{
+	background-color: #FF7D33;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-color: #FAC76E;
+	color: white;
+	height: 600px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 750px;
+	float: left;
+	padding: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	padding: 0px 150px 0px 150px;
+}
+
+footer{
+	background-color: #6C9252;
+	color:white;
+	clear:both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+
+main .fondo img:hover{
+	transform: scale(1.05);
+}
+table{
+	border-radius: 5px;
+	border-width: 5px;
+	border-color: black;
+}
+
+
+@media screen and (min-width: 800px) {
+	body{
+       	/*font-family: Arial, Helvetica, sans-serif;*/
+	    background-image: url('fondoPizza.jpg');
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-size: cover;
+    }
+	header{
+	    background-color: #FF7D33;
+	    color: white;
+	    text-align: center;
+	    padding: 5px;
+	    font-size: 40px;
+	    width: 100%;
+    }
+
+    nav{
+	    line-height: 30px;
+	    background-color: #FAC76E;
+	    color: white;
+	    height: 600px;
+	    width: 200px;
+	    float: left;
+	    padding: 5px;
+	    font-size: 22px;
+	    text-decoration: none;
+	    margin: 20px;
+	    width: 20%;
+    }
+
+    nav a:hover{
+	    text-decoration: underline;
+	    cursor: pointer;
+    }
+
+    section{
+	    width: 750px;
+	    float: left;
+	    padding: 10px;
+	    color: black;
+	    text-align: justify;
+	    font-size: 20px;
+	    padding: 0px 150px 0px 150px;
+    }
+
+    footer{
+	    background-color: #6C9252;
+	    color:white;
+	    clear:both;
+	    text-align: center;
+	    padding: 5px;
+	    width: 100%;
+    }
+
+    img{
+	    display: block;
+	    margin: auto;
+	    clear: right;
+    }
+
+    a{
+	    text-decoration: none;
+	    color: white;
+    }
+
+    main .fondo{
+	   text-align: center;
+	   width: 40%;
+    }
+
+    main .fondo img{
+	    max-width: 40%;
+	    height: auto;
+	    cursor: pointer;
+	    border-radius: 10px;
+	    transition: transform 0.3s ease;
+    }
+
+    main .fondo img:hover{
+	    transform: scale(1.05);
+    }
+    table{
+	    border-radius: 5px;
+	    border-width: 5px;
+	    border-color: black;
+    }
+
+}
